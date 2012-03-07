@@ -25,7 +25,7 @@ $openerp = PhpOpenerp::getInstance();
 
 // retrieve a list of all res.partner ids
 $partner_ids = $openerp->search('res.partner');
-// alternative, select everyone which name starts is like 'sh'
+// alternative, select everyone which name is like 'sh'
 //$partner_ids = $openerp->search('res.partner', array(array('name', 'ilike', 'sh')));
 //
 // read the name and language of every partner
